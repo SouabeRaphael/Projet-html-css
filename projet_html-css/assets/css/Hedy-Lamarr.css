@@ -61,6 +61,8 @@ header
         color: #CDB2A8;
     }
 
+    /* responsive header */
+
     @media (max-width: 767px) {
         .navigation .logo{
             text-align: center;
@@ -83,7 +85,7 @@ header
 
 
 /*----------------------------------------------------------------
-premiere section page Hedy-Lamarr
+first page Hedy lamarr
 ------------------------------------------------------------------*/
 
 .title{
@@ -111,6 +113,8 @@ premiere section page Hedy-Lamarr
     padding: 0 30px;
 }
 
+/* responsive title */
+
 @media (min-width: 576px) { 
     .title-principal h1 {
         font-size: 60px;
@@ -130,7 +134,7 @@ premiere section page Hedy-Lamarr
 }
 
 /*----------------------------------------------------------------
-seconde section page Biographie Hedy-Lamarr
+seconde page: Biographie Hedy lamarr
 ------------------------------------------------------------------*/
 
 .img-custom{
@@ -177,6 +181,8 @@ footer
     color: black;
 }
 
+/* responsive header */
+
 @media (min-width: 300px) { 
     .info h1 {
         font-size: 15px;
@@ -212,3 +218,7 @@ footer
         font-size: 14px;
     }
 }
+
+/*------------------------------------------------------
+End
+----------------------------------------------------------*/

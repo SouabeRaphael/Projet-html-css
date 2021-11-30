@@ -54,6 +54,8 @@ header
     color: #CDB2A8;
 }
 
+/* responsive header */
+
 @media (max-width: 767px) {
     .navigation .logo{
         text-align: center;
@@ -70,20 +72,13 @@ header
         margin: 15px;
 
     }
-
-
 }
 
 /*------------------------------------------------------------------------
 timelines
 ---------------------------------------------------------------------------*/
 
-/* .site-content{
-    padding-top: 150px;
-    padding-bottom: 50px;
-} */
-
-.title-custom{
+.title{
     margin-bottom: 40px;
     font-family: 'Permanent Marker';
     color: black;
@@ -182,10 +177,7 @@ timelines
     transform: rotate(-5deg);
 }
 
-/*----------------------------------------------------------------------------
-responsive timelines
--------------------------------------------------------------------------------*/
-
+/* responsive timelines */
 
 @media screen and (max-width: 1000px) {
 
@@ -200,7 +192,7 @@ responsive timelines
         left: calc(50% - 50px)
     }
 
-    .title-custom{
+    .title{
         font-size: 35px;
     }
 
@@ -219,7 +211,7 @@ responsive timelines
         left: calc(50% - 50px)
     }
 
-    .title-custom{
+    .title{
         font-size: 25px;
     }
 
@@ -256,6 +248,8 @@ footer
     color: black;
 }
 
+/* responsive footer */
+
 @media (min-width: 300px) { 
     .info h1 {
         font-size: 15px;
@@ -291,3 +285,7 @@ footer
         font-size: 14px;
     }
 }
+
+/*-----------------------------------------------------------------
+End
+-------------------------------------------------------------------*/

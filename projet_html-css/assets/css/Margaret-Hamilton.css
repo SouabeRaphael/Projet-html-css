@@ -61,6 +61,8 @@ header
         color: #CDB2A8;
     }
 
+    /* responsive header */
+
     @media (max-width: 767px) {
         .navigation .logo{
             text-align: center;
@@ -77,13 +79,11 @@ header
             margin: 15px;
 
         }
-    
-    
     }
 
 
 /*----------------------------------------------------------------
-premiere section page Hedy-Lamarr
+First page Margaret Hamilton
 ------------------------------------------------------------------*/
 
 .title{
@@ -111,6 +111,8 @@ premiere section page Hedy-Lamarr
     padding: 0 30px;
 }
 
+/* responsive title */
+
 @media (min-width: 576px) { 
     .title-principal h1 {
         font-size: 60px;
@@ -130,7 +132,7 @@ premiere section page Hedy-Lamarr
 }
 
 /*----------------------------------------------------------------
-seconde section page Biographie Margaret Hamilton
+seconde page: Biographie Margaret Hamilton
 ------------------------------------------------------------------*/
 
 .img-custom{
@@ -177,6 +179,8 @@ footer
     color: black;
 }
 
+/* responsive footer */
+
 @media (min-width: 300px) { 
     .info h1 {
         font-size: 15px;
@@ -212,3 +216,7 @@ footer
         font-size: 14px;
     }
 }
+
+/*----------------------------------------------------------------
+End 
+--------------------------------------------------------------------*/

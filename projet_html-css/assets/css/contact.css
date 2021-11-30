@@ -13,7 +13,6 @@ body{
     font-size: 14px;
     line-height: 1.5em;
     color: black;
-    /* background-color: #CDB2A8; */
     background-image: url(../img/contact-us-image.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,6 +56,8 @@ header
     color: #CDB2A8;
 }
 
+/* responsive header */
+
 @media (max-width: 767px) {
     .navigation .logo{
         text-align: center;
@@ -73,17 +74,16 @@ header
         margin: 15px;
 
     }
-
-
 }
 
 /*------------------------------------------------------------------------
-Formulaire
+Contact Form
 ---------------------------------------------------------------------------*/
 
 .site-content{
     padding-top: 50px;
     padding-bottom: 50px;
+    height: 100vh;
 }
 
 @media (max-width: 768px) { 
@@ -112,7 +112,7 @@ Formulaire
     transform: rotate(-5deg);
 }
 
-.title-custom{
+.title{
     font-family: 'Indie Flower';
     font-weight: bold;
 }
@@ -122,32 +122,34 @@ Formulaire
     font-size: 55px;
 }
 
+/* responsive title */
+
 @media (min-width: 350px) { 
-    .title-custom {
+    .title {
         font-size: 40px;
     }
 }
 
 @media (min-width: 576px) { 
-    .title-custom {
+    .title {
         font-size: 50px;
     }
 }
 @media (min-width: 768px) { 
-    .title-custom {
+    .title {
         font-size: 45px;
         margin-top: 50px;
     }
 }
 
 @media (min-width: 992px) { 
-    .title-custom {
+    .title {
         font-size: 45px;
     }
 }
 
 @media (min-width: 1200px) { 
-    .title-custom {
+    .title {
         font-size: 55px;
     }
 }
@@ -181,6 +183,8 @@ footer
     font-family: 'Great Vibes';
     color: black;
 }
+
+/*responsive header*/
 
 @media (min-width: 300px) { 
     .info h1 {
@@ -217,3 +221,7 @@ footer
         font-size: 14px;
     }
 }
+
+/*-------------------------------------------------------------
+End
+------------------------------------------------------------*/
