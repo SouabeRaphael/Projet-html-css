@@ -252,9 +252,39 @@ thrid section page accueil
   text-align: justify;
 }
 
-.carousel-item img {
+.img-carousel img {
   width: 700px;
   height: 500px;
+}
+
+/* important pour carousel */
+#image img.hidden {
+  display: none;
+}
+/* ----------------------------- */
+
+.btn-control{
+  position: absolute;
+  top: 226vh;
+  left: 5vw;
+  z-index: 10;
+}
+
+.btn-carousel{
+  width: 50px;
+  height: 50px;
+  margin: 1px;
+  background-color:#000000;
+  opacity: 58%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+#btn-back{
+  transform: rotate(180deg);
 }
 
 .title-custom-2 {
