@@ -1,3 +1,6 @@
+
+// Carousel
+
 let images = document.querySelectorAll("#image img");
 // console.log(images)
 
@@ -48,3 +51,20 @@ function getImageBack() {
   }
 }
 getImageBack();
+
+// Fin carousel
+// -----------------------------------------------------------------------------------------------------------------
+
+// Loader
+
+let loader = document.querySelector('.loader-wrapper');
+
+window.addEventListener('load', loaded);
+
+function loaded(){
+  loader.classList.add('fondu-out');
+}
+  
+
+
+
